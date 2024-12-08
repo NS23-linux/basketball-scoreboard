@@ -1,0 +1,185 @@
+button{
+    border-radius: 5px;
+    border: 2px solid #9aabd8;
+    box-sizing: border-box;
+}
+
+.home-text{
+    position: absolute;
+    top: 271px;
+    left: 82px;
+    width: 155px;
+    height: 45px;
+    
+    }
+
+.away-text{
+    position: absolute;
+    top: 271px;
+    left: 337px;
+    width: 155px;
+    height: 45px;
+}
+body {
+    width: 100%;
+    position: relative;
+    background-color: #1b244a;
+    height: 385px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 18px;
+    color: #9aabd8;
+    font-family: "Orbitron", serif;
+    }
+        
+/* this one for home  */
+#plus-three-point{
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: #1b244a;
+    
+}
+#plus-two-point{
+    position: absolute;
+    top: 0px;
+    left: 54px;
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: #1b244a;
+}
+#plus-one-point{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: #1b244a;
+    
+}
+  
+/* this one is for guest */
+
+
+#plus-three-pointaway{
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: #1b244a;
+    
+}
+#plus-two-pointaway{
+    position: absolute;
+    top: 0px;
+    left: 54px;
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: #1b244a;
+}
+#plus-one-pointaway{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: #1b244a;
+    
+}
+#reset-El{
+    position:absolute;
+    width: 75px;
+    top: 0px;
+    left:260px;
+    height: 45px;
+    color: white;
+    background-color: #1b244a;
+    
+    
+}
+
+
+
+
+
+
+
+.background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    }
+
+
+
+
+.home-score {
+    position: absolute;
+    top: 125px;
+    left: 82px;
+    width: 155px;
+    height: 120px;
+    }
+    .home-score1 {
+    position: absolute;
+    top: 125px;
+    left: 337px;
+    width: 155px;
+    height: 120px;
+    }
+    .board-title-home {
+    position: absolute;
+    top: 68px;
+    left: 85px;
+    font-size: 40px;
+    line-height: 35.89px;
+    display: inline-block;
+    font-family: Verdana;
+    color: #eee;
+    width: 149px;
+    }
+    .board-title-home1 {
+    position: absolute;
+    top: 68px;
+    left: 340px;
+    font-size: 40px;
+    line-height: 35.89px;
+    display: inline-block;
+    font-family: Verdana;
+    color: #eee;
+    width: 149px;
+    }
+    .home-points-text {
+    position: absolute;
+    top: 125px;
+    left: 100px;
+    font-size: 90px;
+    line-height: 126.67px;
+    color: #f94f6d;
+    display: inline-block;
+    width: 117px;
+    height: 120px;
+    }
+    .home-points-text1 {
+    position: absolute;
+    top: 125px;
+    left: 355px;
+    font-size: 90px;
+    line-height: 126.67px;
+    color: #f94f6d;
+    display: inline-block;
+    width: 117px;
+    height: 120px; }

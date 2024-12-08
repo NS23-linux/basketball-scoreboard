@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>NBA scoreboard</title>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./index.css" />
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Kablammo&family=Nabla&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Verdana:wght@700&display=swap" />
+  	
+    </head>
+    <body>
+<div>
+    <div class="home-text">
+      <button id="plus-three-point" onclick="addthree()">+3</button> 
+      <button id="plus-two-point" onclick="addtwo()">+2</button> 
+      <button id="plus-one-point" onclick="addone()">+1</button>
+     </div>
+     
+    <div class="away-text">
+      <button id="plus-three-pointaway" onclick="addthreeGuest()">+3</button> 
+      <button id="plus-two-pointaway" onclick="addtwoGuest()">+2</button> 
+      <button id="plus-one-pointaway" onclick="addoneGuest()">+1</button>
+    </div>      
+</div>
+
+
+
+<div class="home-score">
+    <div class="background">
+    </div>
+    </div>
+    <div class="home-score1">
+    <div class="background">
+    </div>
+    </div>
+
+<!-- reset button -->
+<button id="reset-El" onclick="reset()">New Game</button>
+
+    <p id="leader"></p>
+
+
+
+  	 
+       <span class="board-title-home">HOME</span>
+       <span class="board-title-home1">GUEST</span>
+       <div class="home-points-text">0</div>
+       <div class="home-points-text1">0</div>
+       <script src="index.js"></script>
+     </body>
+</html>
